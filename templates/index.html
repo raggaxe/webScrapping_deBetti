@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ <script src="https://kit.fontawesome.com/4dbf725c93.js" crossorigin="anonymous"></script>
+    <title>Hello, world!</title>
+
+  </head>
+
+  <style>
+    body {
+    background-color: #222;
+    text-align:center;
+    color:white;
+    }
+
+
+.card {
+
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+        width:400px;
+        margin-top:17px;
+        background:rgba(255, 255, 255, 0.3);
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+  text-align: center;
+
+
+
+}
+
+
+
+
+.group {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+.group input {
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    border: none;
+    background: none;
+    color: #ffcc00;
+}
+.group input:focus {
+    outline: none;
+}
+#pags {
+width: 60px;
+position:relative;
+margin:0 auto;
+}
+#pags::placeholder{
+color:#ffcc00;
+}
+
+.pesquisa a{
+color: rgba(255, 255, 255, 0.6);
+    font: bold 1.0em/100% Raleway;
+    font-weight: normal;
+     position: relative;
+    pointer-events: none;
+    left: 87px;
+    top: 8px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+
+}
+
+
+/* LABEL ======================================= */
+
+
+/* active durum */
+
+.group input:focus ~ label,
+input:valid ~ label {
+    top: -10px;
+    font: bold 0.9em/100% Raleway;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* active durum bar */
+
+.group input:focus ~ .bar:before,
+.group input:focus ~ .bar:after {
+    width: 50%;
+}
+.input:active {
+background:blue;}
+
+
+.group input:focus ~ .highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    -moz-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease;
+}
+.giris-yap-buton,
+.kayit-ol-buton,
+.sifre-hatirlat-buton {
+    background: none;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #eee;
+    font: bold 1.0em/50% Raleway;
+    font-weight: 100;
+    border-radius: 3px;
+    outline: none;
+    opacity: 0.8;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    margin:0 auto;
+     width: 100%;
+     padding:30px;
+      letter-spacing: 5px;
+}
+
+#refresh{
+ border: 2px solid #ffcc00;
+ color:#ffcc00;
+}
+ /* FIMMMMMM  LOGIN FORM ------------------------------- */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: none;
+  background:none;
+  -webkit-text-fill-color: #ffcc00;
+
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+
+#titulo{
+padding-bottom:30px;
+color: #ffcc00;
+text-shadow: 2px 2px black;}
+
+
+
+.result {
+padding:30px;}
+.result h1 {
+padding-top:30px;
+color: #ffcc00;
+text-shadow: 2px 2px black;
+}
+
+
+.table{
+color:white;
+font-size:7px;
+   }
+tbody {font-size:2vw;}
+ .result {
+ width: 100%;}
+
+ #baixar{
+ position:relative;
+ width: 400px;
+ font-size:14px;
+;
+ }
+ #baixar:hover{
+ color: #222;
+ text-decoration:none;
+ border: 2px solid #222;
+ }
+
+ .navbar {
+ background:#222;}
+
+ .navbar a {
+ margin:0 auto;
+ color:#8c8c8c;
+ font-size:10px;}
+
+
+
+ #downpage_1{
+position:relative;
+width:60px;
+background:none;
+cursor:pointer;
+margin:0 auto;
+margin-top:10px;
+
+-webkit-animation: downarrow 0.5s ease-in-out infinite;
+			animation: downarrow 0.5s ease-in-out infinite;
+
+}
+
+
+ @-webkit-keyframes downarrow {
+0% {transform: translateY(0px)}
+50%  {transform: translateY(20px)}
+100%  {transform: translateY(0px)}
+}
+
+
+.sem_url a{
+position:relative;
+padding:20px;
+text-size:9px;
+background: none;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #eee;
+    font: bold 1.0em/50% Raleway;
+    font-weight: 100;
+    border-radius: 3px;
+    outline: none;
+    opacity: 0.8;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    margin:0 auto;
+    margin-bottom: 20px;
+}
+.sem_url a:hover{
+background: none;
+}
+
+#url {
+  opacity: 0;
+  width: 0;
+  margin:0 auto;
+  height:0;
+}
+  </style>
+  <body>
+  <div class="card">
+    <a class="site-header__logo-link">
+              <img src="https://cdn.shopify.com/s/files/1/2254/3183/files/Logo_debetti_transparente_ac7c1553-585c-4adf-a21d-becd53172bcd_150x@2x.png?v=1574365659"
+                   srcset="//cdn.shopify.com/s/files/1/2254/3183/files/Logo_debetti_transparente_ac7c1553-585c-4adf-a21d-becd53172bcd_150x.png?v=1574365659 1x, //cdn.shopify.com/s/files/1/2254/3183/files/Logo_debetti_transparente_ac7c1553-585c-4adf-a21d-becd53172bcd_150x@2x.png?v=1574365659 2x"
+                   alt="deBetti Dry Aged" itemprop="logo">
+            </a>
+    <h1 id="titulo">Web Scrapping</h1>
+    <div class="container-fluid">
+    <form method="POST" action="{{ url_for('scrapping') }}">
+
+       <div class="group">
+           <div id="sem_url" class="row sem_url">
+
+               <a href="#" id="burger" onclick="burger()">BURGUER</a>
+               <a href="#" id="carnes" onclick="carnes()">CARNES</a>
+               <a href="#" id="queijos" onclick="queijos()">CHARCUTARIA E QUEIJOS</a>
+<!--                <a>USAR URL COMPLETA</a>-->
+           </div>
+        <div class="url_select">
+            <input type="text" id="url" name="url"  value="" required>
+<!--            <span class="highlight"></span>-->
+<!--            <span class="bar"></span>-->
+<!--            <label><span class="span-input"></span>URL Completa</label>-->
+            </div>
+       </div>
+
+
+<div class="row group pesquisa">
+       <a>Páginas a pesquisar</a>
+            <input type="number" id="pags" name="paginas"  placeholder="1" value="1">
+
+        </div>
+      <div class="form-group">
+          {% if data %}
+           <button id="refresh" onclick="" type="submit" class="giris-yap-buton">FAZER OUTRA PESQUISA</button>
+           {% else %}
+          <button type="submit" class="giris-yap-buton">PESQUISAR</button>
+          {% endif  %}
+      </div>
+
+    </form>
+</div>
+  </div>
+
+  {% if data %}
+  <div class="card result">
+<!--      <button type="button" id="close"></button>-->
+      <h1 style="padding-top:25px;">Resultado da pesquisa </h1>
+      <h5>{{data.0.data}}</h5>
+      <a id="baixar" class="giris-yap-buton" href="/uploads/{{ filename }}"  >BAIXAR ARQUIVO </a>
+<div id="downpage_1">
+          <a >
+             <i class="fas fa-angle-double-down"></i>
+          </a>
+              </div>
+      <hr>
+        <table>
+            {% for item in data %}
+            <tbody>
+            <tr>
+                <td>
+                      <img  src="{{item.foto}}" height="70" alt="Card image cap" >
+                </td>
+                <td>
+                   {{item.nome}}
+                </td>
+                <td>
+                     {{item.tipo}}
+                </td>
+                <td>
+                     {{item.preco}}
+                </td>
+            </tr>
+            </tbody>
+            {% endfor %}</table>
+  </div>
+  {% endif %}
+
+
+<nav class="navbar fixed-bottom">
+  <a class="navbar-brand">Projeto realizado por Rafael Almeida  - @2020</a>
+</nav>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script>
+function burger() {
+    url = 'https://compre.debetti.com.br/collections/burger'
+  document.getElementById("url").value = url;
+  document.getElementById("queijos").style.display = "none";
+  document.getElementById("carnes").style.display = "none";
+  document.getElementById("burger").style.width = "100%";
+  document.getElementById("burger").removeAttribute("href");;
+}
+
+function carnes() {
+    url = 'https://compre.debetti.com.br/collections/steaks'
+  document.getElementById("url").value = url;
+  document.getElementById("queijos").style.display = "none";
+  document.getElementById("burger").style.display = "none";
+  document.getElementById("carnes").style.width = "100%";
+  document.getElementById("carnes").removeAttribute("href");;
+}
+function queijos() {
+    url = 'https://compre.debetti.com.br/collections/charcutaria-e-queijos'
+  document.getElementById("url").value = url;
+  document.getElementById("carnes").style.display = "none";
+  document.getElementById("burger").style.display = "none";
+  document.getElementById("queijos").style.width = "100%";
+  document.getElementById("queijos").removeAttribute("href");;
+}
+
+
+</script>
+
+
+  </body>
+</html>
